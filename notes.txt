@@ -2,6 +2,12 @@ S1 :
 python famous libraries
 difference between framework / library
 
-
 S2 :
 recursive functions
+
+S6 :
+OOA table
+ERD
+
+S8 :
+static - class - instance methods in python with example
