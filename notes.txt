@@ -11,3 +11,7 @@ ERD
 
 S8 :
 static - class - instance methods in python with example
+
+S10 :
+encapsulation - abstraction
+database & 2 types of database & SQL

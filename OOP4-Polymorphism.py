@@ -19,24 +19,25 @@ def make_sound(animal):
 
 
 # Create instances of different animal classes
-# woody = Dog()
-# jimmy = Cat()
-# taylor = Cow()
-#
-# # Call the make_sound function with different animal objects
-# make_sound(taylor)
+woody = Dog()
+jimmy = Cat()
+taylor = Cow()
+
+# Call the make_sound function with different animal objects
+make_sound(jimmy)
 
 # # -----------------------------------------------------------------------
 #
 # Polymorphism in built-in objects
 
-t = (10, 20, 30, 40, 10, 10)
-l = [50, 60, 10, 10]
+# t = (10, 20, 30, 40, 10, 10)
+# l = [50, 60, 10, 10]
 
 # Call the __len__() method on each instance
 # Magic methods are special methods and they are automatically called when object is created
-print(l.__len__())
-print(t.__len__())
+
+# print(l.__len__())
+# print(t.__len__())
 
 # print(dir(t))
 # print(dir(l))
