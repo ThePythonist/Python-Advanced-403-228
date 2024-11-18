@@ -1,44 +1,50 @@
-# class MyClass:
-#     def __init__(self):
-#         self.public_member = "I am a public member"
-#         self._protected_member = "I am a protected member"
-#         self.__private_member = "I am a private member"
-#
-#     def public_method(self):
-#         print("This is a public method")
-#
-#     def _protected_method(self):
-#         print("This is a protected method")
-#
-#     def __private_method(self):
-#         print("This is a private method")
-#         print(self.__private_member)
+class MyClass:
+    def __init__(self):
+        self.a = "I am a public member"
+        self._b = "I am a protected member"
+        self.__c = "I am a private member"
+
+    def public_method(self):
+        print("This is a public method")
+
+    def _protected_method(self):
+        print("This is a protected method")
+
+    def __private_method(self):
+        print("This is a private method")
+        print(self.__private_member)
 
 
 # Creating an instance of the class
-# obj = MyClass()
+obj = MyClass()
+
 
 # Accessing public members and calling public methods
 
-# print(obj.public_member)
+# print(obj.a)
 # obj.public_method()
+#
+# print("-"*50)
 #
 # obj.public_member = "Im not a public member"
 # print(obj.public_member)
 
 # Accessing protected members and calling protected methods
-# print(obj._protected_member)
+# print(obj._b)
 # obj._protected_method()
-# obj._protected_member = "Im not a protected member"
-# print(obj._protected_member)
+#
+# print("-" * 50)
+#
+# obj._b = "Im not a protected member"
+# print(obj._b)
 
 # Trying to access private members and calling private methods (will result in an error)
 
-# print(obj.__private_member)
+# print(obj.__c)
 # obj.__private_method()
 
-# obj.__private_member = "yechizi"
-# print(obj.__private_member)
+# obj.__c = "yechizi"
+# print(obj.__c)
 
 # --------------------------------------------------------------------------------------------
 
@@ -75,7 +81,7 @@
 
 class Car:
     def __init__(self):
-        self.color = "Black" # Public member
+        self.color = "Black"  # Public member
         self.__mileage = 0  # Private member
 
     def _drive(self, kilometers):
@@ -86,8 +92,10 @@ class Car:
         print(f"Mileage : {self.__mileage}")
 
     def __increase_mileage(self):  # The Getter method
-        self.__mileage += 1 # Accesing private member
+        self.__mileage += 1  # Accesing private member
 
 
 my_car = Car()
 my_car._drive(35)
+my_car._drive(2)
+print(my_car.__milage)
