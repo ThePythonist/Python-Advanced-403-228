@@ -16,7 +16,10 @@ S10 :
 encapsulation - abstraction
 database & 2 types of database & SQL
 
-S12:
+S12 :
 ORM
 DBMS : PostgreSQL - MySQL
 DELETE, WHERE, UPDATE, ALTER TABLE
+
+S16 :
+prettytable module in python
