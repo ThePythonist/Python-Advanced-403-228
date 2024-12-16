@@ -18,7 +18,6 @@ data = {
     "likes": None,
 }
 
-
 # Serialize
 
 # json_data = json.dumps(data)  # Converts python data into json string

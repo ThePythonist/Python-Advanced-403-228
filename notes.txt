@@ -23,3 +23,6 @@ DELETE, WHERE, UPDATE, ALTER TABLE
 
 S16 :
 prettytable module in python
+
+S18 :
+pandas,numpy,beautifulsoup,selenium,pyinstaller

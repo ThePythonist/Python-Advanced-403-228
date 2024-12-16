@@ -6,5 +6,5 @@ root = tree.getroot()
 
 xml_string = ET.tostring(root, encoding='utf8', method='xml')
 
-# xml_dict = xmltodict.parse(xml_string)
-# print(xml_dict)
+xml_dict = xmltodict.parse(xml_string)
+print(xml_dict)
