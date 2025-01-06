@@ -26,3 +26,9 @@ prettytable module in python
 
 S18 :
 pandas,numpy,beautifulsoup,selenium,pyinstaller
+
+S20 :
+docker, django, flask
+
+S22 :
+az dakhel ketab (tarahi vaset graphici) : widget, controller haye tkinter
